@@ -17,5 +17,5 @@ public class LongestSubstringWoReptingChars {
         }
         return max;
     }
-
+    
 }

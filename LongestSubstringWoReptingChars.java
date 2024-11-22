@@ -1,4 +1,3 @@
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -25,5 +24,3 @@ public class LongestSubstringWoReptingChars {
         System.out.println("Length of the longest substring without repeating characters: " + solution.lengthOfLongestSubstring(test));
     }
 }
-
-

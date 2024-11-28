@@ -22,6 +22,6 @@ public class LongestSubstringWoReptingChars {
     public static void main(String[] args) {
         LongestSubstringWoReptingChars solution = new LongestSubstringWoReptingChars();
         String test = "abcabcbb";
-        System.out.println("Length of the longest substring without repeating characters: " + solution.lengthOfLongestSubstring(test));
+        System.out.println("Length of the longest substring without repeating character's is: " + solution.lengthOfLongestSubstring(test));
     }
 }

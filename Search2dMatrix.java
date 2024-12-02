@@ -1,4 +1,4 @@
-public class Sathvik {
+public class Search2dMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
         int m = matrix.length, n = matrix[0].length;
 
@@ -28,7 +28,7 @@ public class Sathvik {
 
       // Main method for testing the searchMatrix function
       public static void main(String[] args) {
-        Sathvik solution = new Sathvik();
+        Search2dMatrix solution = new Search2dMatrix();
 
         // Example test case
         int[][] matrix = {

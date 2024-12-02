@@ -7,7 +7,7 @@ public class Sathvik {
 
         //binary search on the 2D matrix
         while (left <= right) {
-            int mid = left + (right - left) / 2;
+            int mid = (left + right) / 2;    // we can write this as left + (right - left) / 2; 
 
             // Convert the mid index to 2D matrix indices
             int midValue = matrix[mid / n][mid % n];

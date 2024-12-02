@@ -38,4 +38,23 @@ public class Sathvik {
         return false;
     }
 
+      // Main method for testing the searchMatrix function
+      public static void main(String[] args) {
+        Sathvik solution = new Sathvik();
+
+        // Example test case
+        int[][] matrix = {
+            {1, 3, 5, 7},
+            {10, 11, 16, 20},
+            {23, 30, 34, 60}
+        };
+
+        int target = 3;
+        boolean result = solution.searchMatrix(matrix, target);
+        System.out.println("Target found: " + result); //output: true
+
+        target = 13;
+        result = solution.searchMatrix(matrix, target);
+        System.out.println("Target found: " + result); //output: false
+    }
 }

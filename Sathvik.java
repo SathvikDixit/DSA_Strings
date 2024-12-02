@@ -1,12 +1,10 @@
 public class Sathvik {
     // Method to search for a target value in a 2D matrix
     public boolean searchMatrix(int[][] matrix, int target) {
-        // Check if the matrix is empty
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return false;
         }
 
-        // Initialize the number of rows (m) and columns (n)
         int m = matrix.length, n = matrix[0].length;
 
         // Define the left and right pointers for binary search

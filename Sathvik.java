@@ -5,29 +5,24 @@ public class Sathvik {
         // Defining the left and right pointers for binary search
         int left = 0, right = m * n - 1;
 
-        // Perform binary search on the 2D matrix
+        //binary search on the 2D matrix
         while (left <= right) {
-            // Find the mid index in the 1D flattened matrix
             int mid = left + (right - left) / 2;
 
             // Convert the mid index to 2D matrix indices
             int midValue = matrix[mid / n][mid % n];
 
-            // If the target is found, return true
             if (midValue == target) {
                 return true;
             }
-            // If the mid value is smaller than the target, move the left pointer
             else if (midValue < target) {
                 left = mid + 1;
             }
-            // If the mid value is larger than the target, move the right pointer
             else {
                 right = mid - 1;
             }
         }
 
-        // Return false if the target is not found
         return false;
     }
 

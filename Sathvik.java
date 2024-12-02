@@ -1,9 +1,8 @@
 public class Sathvik {
     public boolean searchMatrix(int[][] matrix, int target) {
-
         int m = matrix.length, n = matrix[0].length;
 
-        // Define the left and right pointers for binary search
+        // Defining the left and right pointers for binary search
         int left = 0, right = m * n - 1;
 
         // Perform binary search on the 2D matrix

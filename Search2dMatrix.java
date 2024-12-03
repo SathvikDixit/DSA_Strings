@@ -1,8 +1,4 @@
 
-
-
-
-
                         // THIS IS ARRAY PROBLEM
 
 

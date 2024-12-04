@@ -56,7 +56,6 @@ class Solution {
     }
 }
 
-
 public class RotateA_LL {
     public static void main(String[] args) {
         // Create a linked list: 1 -> 2 -> 3 -> 4 -> 5

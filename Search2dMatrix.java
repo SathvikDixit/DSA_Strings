@@ -36,7 +36,6 @@ public class Search2dMatrix {
                 right = mid - 1;
             }
         }
-
         return false;
     }
     

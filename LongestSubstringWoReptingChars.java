@@ -1,3 +1,5 @@
+
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -17,6 +19,7 @@ public class LongestSubstringWoReptingChars {
         }
         return max;
     }
+
     public static void main(String[] args) {
         LongestSubstringWoReptingChars solution = new LongestSubstringWoReptingChars();
         String test = "abcabcbb";

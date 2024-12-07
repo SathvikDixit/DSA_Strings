@@ -2,11 +2,7 @@
 
 
 
-
-
                         // THIS IS ARRAY PROBLEM
-
-
 
 
 

@@ -3,15 +3,9 @@
 
 
 
-
-
-
                         // THIS IS ARRAY PROBLEM
 
 
-
-
-                        
 
 
 

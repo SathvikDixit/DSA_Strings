@@ -3,8 +3,6 @@
 
 
 
-
-
                         // THIS IS ARRAY PROBLEM
 
 

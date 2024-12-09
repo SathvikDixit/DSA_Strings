@@ -5,16 +5,7 @@
 
 
 
-
-
-
-
-
                         // THIS IS ARRAY PROBLEM
-
-
-
-
 
 
 

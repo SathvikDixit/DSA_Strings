@@ -3,12 +3,7 @@
 
 
 
-
-
                         // THIS IS ARRAY PROBLEM
-
-
-
 
 
 

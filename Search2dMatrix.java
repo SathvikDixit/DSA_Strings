@@ -7,7 +7,7 @@
 
 
 
-                        
+
 
 public class Search2dMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
@@ -56,3 +56,6 @@ public class Search2dMatrix {
         System.out.println("Target found: " + result); //output: false
     }
 }
+
+
+
